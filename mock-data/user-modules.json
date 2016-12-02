@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "iconName": "",
+    "label": "Dashboard",
+    "sections": [
+      {
+        "name": "",
+        "options": []
+      }, {
+
+      }
+    ]
+  }, {
+    "id": 2,
+    "iconName": "",
+    "label": "Administration",
+    "sections": [
+      {
+        "name": "Integration",
+        "options": ["Groups Types", "Groups"]
+      }, {
+        "name": "Integration",
+        "options": ["Groups Types", "Groups", "Users", "Contacts"]
+      }
+    ]
+  }, {
+    "id": 3,
+    "iconName": "",
+    "label": "Waste Tracking System",
+    "sections": []
+  }, {
+    "id": 4,
+    "iconName": "",
+    "label": "Sales Order",
+    "sections": []
+  }, {
+    "id": 5,
+    "iconName": "",
+    "label": "Reports",
+    "sections": []
+  }, {
+    "id": 6,
+    "iconName": "",
+    "label": "Billing",
+    "sections": []
+  } 
+]

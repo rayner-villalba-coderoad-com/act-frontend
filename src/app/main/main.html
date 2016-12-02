@@ -1,0 +1,14 @@
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav-bar sections="$ctrl.sections"></nav-bar>
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <side-bar modules="$ctrl.modules" on-select="$ctrl.setModuleSections(sections)"></side-bar>
+  </nav>
+
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div ui-view></div>
+    </div>
+  </div>
+</div>
