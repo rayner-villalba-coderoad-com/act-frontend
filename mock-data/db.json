@@ -20,9 +20,6 @@
         "name": "User Managment",
         "options": [{"name": "groupType", "label": "Groups Types"}, {"name":"groups", "label":"Groups"}, {"name":"users", "label":"Users"}, {"name":"contacts", "label":"Contacts"}]
       }, {
-        "name": "Waste Tracking System",
-        "options": [{"name": "groupType", "label": "Groups Types"}, {"name":"groups", "label":"Groups"}, {"name":"users", "label":"Users"}]
-      }, {
         "name": "Reports",
         "options": [{"name": "groupType", "label": "Groups Types"}]
       }
