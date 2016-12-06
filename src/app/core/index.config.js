@@ -13,7 +13,7 @@
     RestangularProvider.setBaseUrl(ACT_API_ENDPOINT);
     RestangularProvider.setFullResponse(true);
 
-    RestangularProvider.setRequestInterceptor(function (elem, operation) {
+    RestangularProvider.setRequestInterceptor(function (elem) {
       return elem;
     });
 

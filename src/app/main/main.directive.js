@@ -25,7 +25,6 @@
       },
 
       setModuleSections: function(sections) {
-        console.log(sections);
         this.sections = sections;
       }
     };

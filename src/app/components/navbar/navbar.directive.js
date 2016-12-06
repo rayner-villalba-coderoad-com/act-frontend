@@ -20,7 +20,6 @@
       $onInit: function() {},
 
       $onChanges: function(changes) {
-        console.log(changes);
         //Check it has section has at least one section for the current select item
         if(changes.sections.currentValue) {
           //Select at least one section
@@ -36,13 +35,11 @@
         }
       },
       getOptions: function(options) {
-         console.log(options);
         this.options = options;
       },
       renderOption: function(option) {
         var path = 'main.' + option.name;
         var label = option.label;
-        console.log(label);
         this.state.go(path, {label: label});
       }
      };

@@ -11,7 +11,7 @@
       getUserModules: getUserModules
     };
 
-    function getUserModules(userId) {
+    function getUserModules() {
       var defer = $q.defer();
       var modulesUrl = Restangular.one('/data');
       modulesUrl.get().then(

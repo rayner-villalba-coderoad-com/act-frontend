@@ -10,13 +10,11 @@
 
     GroupsController.$inject = ['$stateParams'];
     function GroupsController ($stateParams) {
-      console.log(this);
       this.stateParams = $stateParams;
     }
 
     GroupsController.prototype = {
       $onInit: function() {
-        console.log(this.stateParams);
         this.groupsTitle = 'Groups';
       }
     };

@@ -3,6 +3,6 @@
 
   angular
     .module('app.core')
-    .constant("ACT_API_ENDPOINT", "http://localhost:8888")
+    .constant("ACT_API_ENDPOINT", "http://localhost:9999")
     .constant('moment', moment);
 })();
