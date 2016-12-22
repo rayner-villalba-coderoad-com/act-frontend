@@ -42,8 +42,9 @@ sudo npm install -g node-sass
 Open your Terminal and verify if you had installed json-server. You can install with and execute : 
 ```bash
 sudo npm install -g json-server
-cd mock-data/
-json-server --watch db.json --port 9999
+cd json-server/
+npm install
+node index.js
 ```   
    
 ## Contact

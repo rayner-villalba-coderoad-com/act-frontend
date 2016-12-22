@@ -4,9 +4,7 @@
   angular.module('mainMenuComponent', [
     'app.core',
     'app.sidebar',
-    'app.navbar'/*,
-    'groupsComponent'*/
-
+    'app.navbar'
   ]);
 
 })();

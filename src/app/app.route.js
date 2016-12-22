@@ -20,6 +20,19 @@
         name: 'main.groups',
         url:'groups',
         template: '<groups></groups>'
+      }, {
+        name: 'main.users',
+        url:'users',
+        template: '<users></users>'
+      }, {
+        name: 'main.users.detail',
+        url: '/:userId',
+        template: '<user></user>',
+        resolve: {
+          user: function ($stateParams) {
+            console.log($stateParams);
+          }
+        }
       }
 
     ];

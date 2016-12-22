@@ -1,0 +1,140 @@
+{
+  "global":{
+    "accept":"Accept",
+    "ok":"Ok",
+    "cancel":"Cancel",
+    "add":"Add",
+    "create":"Create",
+    "edit":"Edit",
+    "delete":"Delete",
+    "update":"Update",
+    "reset":"Reset",
+    "remove":"remove",
+    "next":"next",
+    "finish":"finish",
+    "search":"Search"
+  },
+  "signIn": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "forgotPassword": "Forgot Password?"
+  },
+
+  "dashboard": {
+    "dashboardTitle": "Dashboard"
+  },
+  "administration":{
+    "administrationTitle":"Administration",
+    "integration":"Integration",
+    "userManagement":"User Management",
+    "parameters":"Parameters",
+    "regulatoryManagement":"Regulatory Management",
+    "chemist":"Chemist",
+    "toxicityParameters":"Toxicity Parameters",
+    "physicalParameters":"Physical Parameters",
+    "hazardMaterialsTable":"Hazard Materials Table"
+  },
+  "wasteTracking":{
+    "wasteTrackingTitle":"Waste Tracking",
+    "company":"Company",
+    "pricing":"Pricing",
+    "profile":"Profile",
+    "quoteBuilder":"Quote Builder",
+    "documents":"Documents",
+    "inventory":"Inventory",
+    "weeklyDriveSchedule":"Weekly drive schedule",
+    "wasteConsolidationSheet":"Waste consolidations sheet",
+    "loadSheet":"Load sheet",
+    "qcFormSpecSheet":"QC form and Off Specs sheet"
+  },
+  "salesOrder":{
+    "salesOrderTitle":"Sales Order"
+  },
+
+  "reports":{
+    "reportsTitle":"Reports",
+    "customReports":"Custom Reports"
+  },
+  "billing":{
+    "billingTitle":"Billing"
+  },
+
+  "userManagement":{
+    "groupTypes":"Group types",
+    "groups":"Groups",
+    "resources":"Resources",
+    "roles":"Roles",
+    "users":"Users"
+  },
+
+  "resources":{
+    "loadingResources":"Loading Resources",
+    "name":"Name",
+    "description":"Description"
+  },
+
+  "roles":{
+    "roles":"Roles",
+    "resources":"Resources",
+    "resourcesNotFound":"No Resources Added",
+    "loadingRoles":"Loading Roles",
+    "rolesAndResources":"Roles and Resources",
+    "selectDefaultTabName":"Select Default Tab",
+    "addUpdateResources":"Add or Update Resources",
+    "addResources":"Add Resources",
+    "removeResources":"Remove Resources",
+    "removeResourcesInstructionDesc":"Please select resources from the list below first",
+    "resourceRemovedConfirmation":"Resource removed successfully",
+    "resourceAddedConfirmation":"Resource added successfully",
+    "roleUpdatedConfirmation":"Role updated successfully",
+    "roleCreatedConfirmation":"Role successfully created, you can add resources now",
+    "updatingResources":"Updating Resources",
+    "updatingRole":"Updating Role",
+    "cancel":"Cancel",
+    "name":"Name",
+    "showDisabled":"Show Disabled",
+    "hideDisabled":"Hide Disabled",
+    "description":"Description",
+    "addRole":"+ Add New Role",
+    "backToList":"< Back to list",
+    "defaultTab":"Default tab",
+    "roleName":"Role Name",
+    "roleDescription":"Role Description",
+    "edit":"Edit",
+    "stopEditing":"Stop Editing",
+    "disabled":"Role Disabled",
+    "enabled":"Role Enabled",
+    "execute":"Execute",
+    "delete":"Delete",
+    "create":"Create",
+    "write":"Write",
+    "read":"Read"
+  },
+
+  "groups":{
+    "groups":"Groups",
+    "loadingGroups":"Loading Groups",
+    "newGroup":"Add New Group",
+    "showDisabled":"Show Disabled",
+    "hideDisabled":"Hide Disabled",
+    "keywords":"keywords",
+    "name":"Name",
+    "selectBranch":"Select Branch",
+    "branch":"Branch",
+    "description":"Description",
+    "billingCode":"Billing Code",
+    "backToList":"< Back to list",
+    "parentGroup":"Parent Group",
+    "addressInfo":"Address Information",
+    "address":"Address",
+    "building":"Building",
+    "city":"City",
+    "state":"State",
+    "zipCode":"Zip Code",
+    "selectState":"Select a State",
+    "creatingGroup":"Creating Group",
+    "createGroupConfirmation":"Group Successfully Created",
+    "phone":"Phone Number"
+  }
+}
